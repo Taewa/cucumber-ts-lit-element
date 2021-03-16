@@ -1,0 +1,27 @@
+{
+  "name": "cucumber-lit-element",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js -p default"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wc/testing": "^2.5.32",
+    "chai": "^4.3.3",
+    "cucumber": "6.0.5",
+    "cucumber-tsflow": "3.4.0",
+    "lit-element": "^2.4.0",
+    "mocha": "^8.3.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.13.0",
+    "@esm-bundle/chai": "^4.3.4",
+    "@web/test-runner": "^0.12.17"
+  }
+}
