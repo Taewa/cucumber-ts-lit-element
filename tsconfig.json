@@ -13,11 +13,7 @@
       "experimentalDecorators": true
     },
     "include": [
-      "packages/*",
       "tests",
       "node_modules/@open-wc/**/*.js"
-    ],
-    "exclude": [
-      "node_modules/!(@open-wc)"
     ]
   }
